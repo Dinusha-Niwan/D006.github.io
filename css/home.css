@@ -1,0 +1,81 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  font-family: ;
+  background: ;
+}
+header{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background: rgb(8,9,19);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 4%;
+  width: 20px;
+  justify-content: space-evenly;
+}
+.brand .fa-github{
+  font-size: 35px;
+}
+.brand h1{
+  margin-left: 5%;
+}
+.navbar{
+  position: relative;
+  width: 70%;
+  padding: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.serchbox{
+  position: relative;
+  width: 40%;
+}
+.serchbox input{
+  width: 80%;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  padding: 1%;
+  text-indent: 10px;
+  font-size: 18px;
+}
+#serchicon{
+  position: relative;
+  left: -30px;
+  font-size: 22px;
+  color: rgb(37,37,37);
+  z-index: 221;
+}
+ul{
+  width: 60%;
+}
+ul li{
+  display: inline-block;
+  margin-left: 4%;
+  padding: 1%;
+  transition: all 0.5s ease;
+}
+ul li a:hover{
+  background: white;
+  color: black;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 1% 2%;
+}
