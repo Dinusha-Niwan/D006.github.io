@@ -1,2 +1,2 @@
-# D006.github.io
+# Dinuwa LK.github.io
 Dinuwa LK Official Website
