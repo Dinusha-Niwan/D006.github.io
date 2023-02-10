@@ -60,9 +60,9 @@ body{
 .title span{
   color: #FF8C00;
 }
-.sub {
+
+.bot ,.sub , .ehi ,.gm {
   align-items: center;
-  background-color: #DC143C;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
@@ -88,135 +88,27 @@ body{
   -webkit-user-select: none;
   vertical-align: middle;
 }
-.sub a {
+.gm{
+  background-color: #008B8B ;
+}
+.sub{
+  background-color:  #DC143C ;
+}
+.bot{
+  background-color: green;
+}
+.ehi{
+  background-color:  #1E90FF ;
+}
+.gm a ,.sub a , .ehi a , .bot a {
   text-decoration: none;
   color: white;
 }
-.sub a:hover {
+.gm a:hover .sub a:hover ,.ehi a:hover ,.bot a:hover {
   text-decoration: none;
   color: black;
 }
-.sub:hover{
-  background-color: white;
-  color: black;
-}
-.bot {
-  align-items: center;
-  background-color: Green;
-  border: 0;
-  border-radius: 100px;
-  box-sizing: border-box;
-  color: white;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 20px;
-  max-width: 480px;
-  min-height: 40px;
-  min-width: 0px;
-  overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  touch-action: manipulation;
-  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-}
-.bot a {
-  text-decoration: none;
-  color: white;
-}
-.bot a:hover {
-  text-decoration: none;
-  color: black;
-}
-.bot:hover{
-  background-color: white;
-  color: black;
-}
-.ehi {
-  align-items: center;
-  background-color: #1E90FF;
-  border: 0;
-  border-radius: 100px;
-  box-sizing: border-box;
-  color: white;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 20px;
-  max-width: 480px;
-  min-height: 40px;
-  min-width: 0px;
-  overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  touch-action: manipulation;
-  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-}
-.ehi a {
-  text-decoration: none;
-  color: white;
-}
-.ehi a:hover {
-  text-decoration: none;
-  color: black;
-}
-.ehi:hover{
-  background-color: white;
-  color: black;
-}
-.gm {
-  align-items: center;
-  background-color: 	#008B8B;
-  border: 0;
-  border-radius: 100px;
-  box-sizing: border-box;
-  color: white;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 20px;
-  max-width: 480px;
-  min-height: 40px;
-  min-width: 0px;
-  overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  touch-action: manipulation;
-  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-}
-.gm a {
-  text-decoration: none;
-  color: white;
-}
-.gm a:hover {
-  text-decoration: none;
-  color: black;
-}
-.gm:hover{
+.gm:hover , .sub:hover , .ehi:hover ,.bot:hover{
   background-color: white;
   color: black;
 }
