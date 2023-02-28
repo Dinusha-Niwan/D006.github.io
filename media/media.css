@@ -81,7 +81,7 @@ body{
   font-size: 25px;
   color: white;
 }
-.fdroid {
+.button {
   align-items: center;
   background-color: #1E90FF;
   border: 0;
@@ -109,15 +109,15 @@ body{
   -webkit-user-select: none;
   vertical-align: middle;
 }
-.fdroid a {
+.button a {
   text-decoration: none;
   color: white;
 }
-.fdroid a:hover {
+.button a:hover {
   text-decoration: none;
   color: black;
 }
-.fdroid:hover{
+.button:hover{
   background-color: white;
   color: black;
 }
